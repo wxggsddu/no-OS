@@ -1,5 +1,10 @@
 # File where libraries are handled
 
+# Used by the build utils
+export EXTRA_LIBS_NAMES
+export EXTRA_LIBS_PATHS
+export PLATFORM_TOOLS
+
 #	IIO
 ifeq (y,$(strip $(TINYIIOD)))
 
